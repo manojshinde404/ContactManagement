@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: none;
+        }
+        .container{
+            font-family: "Roboto", sans-serif;
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            opacity: 99%;
+            max-width: 360px;
+            margin: 100px auto 100px;
+            padding: 10px 45px 30px 45px;
+            text-align: left;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),0 5px rgba(0, 0, 0, 0.24);
+            border-radius: 10px;
+        }
+        .container p{
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .container input{
+            outline: 0;
+            border-radius: 4px;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        .container input:hover{
+            background-color: #d3f8f9;
+            transition: all 1s ease 0s;
+        }
+        .container input:focus{
+            background-color: #d3f8f9;
+            transition: all 1s ease 0s;
+        }
+        .container button{
+            text-transform: uppercase;
+            outline: 0;
+            border-radius: 5px;
+            background: #1ADBE5;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .container button:hover,.container button:active, .container:focus{
+            background-color: #06c5cf;
+            transition: all 1s ease 0s;
+        }
+        .container .message{
+            margin: 15px 0 0;
+            color: #b3b3b3;
+            font-size: 12px;
+        }
+        .container .message a{
+            color: #06c5cf;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="container">  
+        <p>Sign Up</p><br>
+        <form action="">
+            <p class="message">Already have account?<a href="1.html">Sign In</a></p> <br><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" ><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="pass"><br><br>
+            <label for="secrete">Secrete</label>
+            <input type="text" name="secrete" id="seccode">
+            <button class="btn"><i class="fa fa-lock" ></i> Sign Up</button>
+            <p class="message">By clicking the "Sign Up" button, you are creating an account, and you agree to the Terms of Use </p>
+        </form>        
+   </div> 
+</body>
+</html>
